@@ -27,6 +27,13 @@
       "password": "password3",
       "role": "employee",
       "id": 4
+    },
+    {
+      "name": "rahul",
+      "email": "rahul@gmail.com",
+      "password": "rahul123",
+      "role": "employee",
+      "id": 5
     }
   ],
   "scrums": [
@@ -45,6 +52,10 @@
     {
       "id": 4,
       "name": "Scrum Team D"
+    },
+    {
+      "name": "marvel",
+      "id": 5
     }
   ],
   "tasks": [
@@ -115,6 +126,20 @@
         }
       ],
       "id": 4
+    },
+    {
+      "title": "new",
+      "description": "marvel studios",
+      "status": "To Do",
+      "scrumId": 5,
+      "assignedTo": "4",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-17"
+        }
+      ],
+      "id": 5
     }
   ]
 }

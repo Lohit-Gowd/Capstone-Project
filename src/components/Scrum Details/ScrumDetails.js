@@ -61,7 +61,7 @@ const ScrumDetails = ({ scrum }) => {
                     },
                 ],
             });
-                {/* Admin can upgrade the status */}            
+                {/* to show Admin can upgrade the status */}            
                 setTasks(prevTasks =>
                 prevTasks.map(task =>
                     task.id === taskId ? { ...task, status: newStatus } : task
@@ -80,7 +80,7 @@ const ScrumDetails = ({ scrum }) => {
                 {tasks.map(task => (
                     <li key={task.id}>
                         <strong>{task.title}:</strong> {task.description} - <em>{task.status}</em>
-                        {/* Admin can upgrade the status */}
+                        
                         {user?.role === 'admin' && (
                             <select value={task.status}
                                 onChange={(e) => handleStatusChange(task.id, e.target.value)}>

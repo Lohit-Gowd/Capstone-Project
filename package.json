@@ -1,13 +1,6 @@
 {
-  "name": "demo-template",
+  "name": "capstone-project",
   "version": "3.2.1",
-  "description": "CoreUI React Open Source Bootstrap 4 Admin Template",
-  "author": {
-    "name": "yaksha"
-  },
-  "homepage": ".",
-  "copyright": "Copyright 2017-2020 creativeLabs Łukasz Holeczek",
-  "license": "MIT",
   "private": true,
   "dependencies": {
     "@coreui/chartjs": "^2.0.0",
